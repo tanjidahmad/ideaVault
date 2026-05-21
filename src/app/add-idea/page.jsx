@@ -18,7 +18,7 @@ export default function AddIdeaPage() {
  "add-idea | IdeaVault";
 },[])
 
-  // SESSION
+ 
   const {
     data: session,
   } =
@@ -75,7 +75,7 @@ export default function AddIdeaPage() {
         problemStatement,
         proposedSolution,
 
-        // REAL LOGGED USER
+       
         userEmail:
           session?.user?.email,
 
