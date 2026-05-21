@@ -52,7 +52,7 @@ export default function IdeaCard({
 
 
 
-        {/* Extra Info */}
+        
         <div className="mt-5 space-y-2 text-sm">
 
           <p>
