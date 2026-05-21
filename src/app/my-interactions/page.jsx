@@ -1,41 +1,4 @@
-// import MyInteractionsContainer from "@/components/MyInteractionsContainer";
 
-// export default async function MyInteractionsPage() {
-
-//   // TEMP USER EMAIL
-//   // BetterAuth পরে replace হবে
-//   const userEmail =
-//     "demo@gmail.com";
-
-
-
-//   const res = await fetch(
-
-//     `http://localhost:8000/my-interactions/${userEmail}`,
-
-//     {
-//       cache: "no-store",
-//     }
-
-//   );
-
-
-
-//   const comments =
-//     await res.json();
-
-
-
-//   return (
-
-//     <MyInteractionsContainer
-//       initialComments={
-//         comments
-//       }
-//     />
-
-//   );
-// }
 
 import MyInteractionsContainer from "@/components/MyInteractionsContainer";
 
