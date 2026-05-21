@@ -54,11 +54,7 @@ export default function Navbar() {
 
   console.log(user)
 
-  // const handleSignout = async () => {
-
-  //   await authClient.signOut();
-
-  // }
+ 
   const handleSignout = async () => {
 
   const currentPath =
