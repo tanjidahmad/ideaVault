@@ -39,7 +39,7 @@ export default function RegisterPage() {
 
     console.log(user);
 
-    // Password Validation
+   
     const uppercase = /[A-Z]/;
 
     const lowercase = /[a-z]/;
