@@ -64,7 +64,7 @@ export default async function IdeaDetailsPage({
 
       <div className="max-w-5xl mx-auto">
 
-        {/* Hero Image */}
+       
         <div className="overflow-hidden rounded-3xl border border-gray-200 dark:border-gray-800 shadow-lg">
 
           <Image
@@ -125,7 +125,7 @@ export default async function IdeaDetailsPage({
 
 
 
-          {/* Short Description */}
+         
           <p className="mt-6 text-sm md:text-base text-gray-500 leading-7">
 
             {idea.shortDescription}
@@ -134,7 +134,7 @@ export default async function IdeaDetailsPage({
 
 
 
-          {/* Info Cards */}
+          
           <div className="grid md:grid-cols-2 gap-5 mt-8">
 
             <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-5">
@@ -175,7 +175,7 @@ export default async function IdeaDetailsPage({
 
 
 
-          {/* Detailed Description */}
+         
           <div className="mt-10">
 
             <h2 className="text-xl md:text-2xl font-bold">
