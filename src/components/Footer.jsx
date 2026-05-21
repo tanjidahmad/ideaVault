@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
 
-          {/* Contact */}
+         
 
 <div>
 
