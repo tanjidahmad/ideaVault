@@ -104,9 +104,7 @@ console.log(tokenData)
 
       try {
 
-        // JWT TOKEN
-// const token =
-//   await authClient.getToken();
+        
 
         const res =
           await fetch(
