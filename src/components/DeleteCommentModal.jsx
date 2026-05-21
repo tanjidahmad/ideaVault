@@ -1,7 +1,7 @@
 "use client";
 
 import toast from "react-hot-toast";
-import { authClient } from "@/lib/auth-client";
+import { authClient } from "@/lib/auth-client"
 
 import {
   AlertDialog,
