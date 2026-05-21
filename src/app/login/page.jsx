@@ -66,15 +66,7 @@ export default function LoginPage() {
 
       }
 
-      // if (data) {
-
-      //   toast.success("Login Successful");
-
-      //   form.reset();
-
-       
-      //   router.push(redirectPath);
-      // }
+   
 
 if (data) {
 
@@ -104,16 +96,7 @@ if (data) {
 
     try {
 
-      // await authClient.signIn.social({
-      //   provider: "google",
-      // });
-
-      // toast.success(
-      //   "Google Login Successful"
-      // );
-
-     
-      // router.push(redirectPath);
+      
 
       await authClient.signIn.social({
   provider: "google",
