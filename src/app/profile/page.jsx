@@ -176,7 +176,7 @@ const router = useRouter();
 
           </div>
 
-          {/* Email */}
+          
           <div>
 
             <label className="block mb-2 font-medium">
