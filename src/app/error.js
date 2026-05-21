@@ -37,7 +37,7 @@ export default function Error({
           className="mt-8 bg-green-600 hover:bg-green-700 duration-300 text-white px-6 py-3 rounded-xl font-semibold"
         >
 
-          Try Again
+          Try Again!!
 
         </button>
 
