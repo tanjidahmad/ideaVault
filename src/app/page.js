@@ -4,6 +4,7 @@
 
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -155,11 +156,12 @@ export default function Home() {
               className="border rounded-2xl overflow-hidden hover:shadow-2xl duration-300 flex flex-col"
             >
 
-              <img
-                src={idea.imageURL}
-                alt={idea.title}
-                className="w-full h-56 object-cover"
-              />
+             <Image
+  src={idea.imageURL}
+  alt={idea.title}
+  fill
+  className="object-cover"
+/>
 
               <div className="p-5 flex flex-col flex-grow">
 
