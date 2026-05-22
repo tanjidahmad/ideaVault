@@ -156,12 +156,16 @@ export default function Home() {
               className="border rounded-2xl overflow-hidden hover:shadow-2xl duration-300 flex flex-col"
             >
 
-             <Image
-  src={idea.imageURL}
-  alt={idea.title}
-  fill
-  className="object-cover"
-/>
+            <div className="relative w-full h-56">
+
+  <Image
+    src={idea.imageURL}
+    alt={idea.title}
+    fill
+    className="object-cover"
+  />
+
+</div>
 
               <div className="p-5 flex flex-col flex-grow">
 

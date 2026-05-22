@@ -100,10 +100,12 @@ if (data) {
 
       await authClient.signIn.social({
   provider: "google",
+  callbackURL: redirectPath
 });
 
 toast.success(
   "Google Login Successful"
+
 );
 
 router.refresh();
